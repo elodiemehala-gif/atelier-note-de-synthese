@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Atelier NDS - Entraînement note de synthèse</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="app">
+<aside class="sidebar">
+  <div class="brand">Atelier NDS<small>Entraînement à la note de synthèse - méthode ISP</small></div>
+  <div class="nav" id="nav"></div>
+  <div class="side-card"><b>Principe de travail</b>Thème → idée → preuve forte → document → place dans le plan. L’application entraîne les décisions à prendre en temps limité.</div>
+  <div class="side-card"><b>Stockage</b>Ta progression est enregistrée uniquement dans ton navigateur.</div>
+</aside>
+<main class="main">
+  <div class="topbar">
+    <div><h1 id="pageTitle">Tableau de bord</h1><p id="pageSubtitle">Travaille les automatismes les plus rentables pour le concours.</p></div>
+    <select id="datasetSelect"></select>
+  </div>
+  <section class="section active" id="dashboard"></section>
+  <section class="section" id="extract"></section>
+  <section class="section" id="draft"></section>
+  <section class="section" id="plan"></section>
+  <section class="section" id="titles"></section>
+  <section class="section" id="vocab"></section>
+  <section class="section" id="syntax"></section>
+  <section class="section" id="simulation"></section>
+  <section class="section" id="progression"></section>
+</main>
+</div>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
