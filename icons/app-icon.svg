@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Atelier NDS">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8f7f3"/>
+      <stop offset="1" stop-color="#eee9fb"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#64a884"/>
+      <stop offset="1" stop-color="#7557c7"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="118" fill="url(#g)"/>
+  <circle cx="256" cy="256" r="168" fill="#ffffff" opacity=".96"/>
+  <circle cx="256" cy="256" r="168" fill="none" stroke="url(#ring)" stroke-width="14"/>
+  <path d="M257 111c-37 25-58 60-59 103 42-2 78-22 103-59-3 50-22 91-58 123" fill="none" stroke="#64a884" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="256" y="320" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="112" font-weight="700" fill="#26313a" letter-spacing="-4">NDS</text>
+  <text x="256" y="368" text-anchor="middle" font-family="Arial,sans-serif" font-size="26" font-weight="700" fill="#7557c7" letter-spacing="4">ATELIER</text>
+</svg>
