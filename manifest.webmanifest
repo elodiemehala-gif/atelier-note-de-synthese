@@ -1,0 +1,27 @@
+{
+  "name": "Atelier NDS — Note de synthèse",
+  "short_name": "Atelier NDS",
+  "description": "Application d’entraînement à la note de synthèse : titres, plan, brouillon, syntaxe, vocabulaire, repères et révision des erreurs.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f8f7f3",
+  "theme_color": "#7557c7",
+  "lang": "fr",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "icons/app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/app-icon-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
